@@ -1,0 +1,15 @@
+﻿  1_1.cpp
+F:\Personal Files\Personal Projects\CtCI\CH1\CH1\1_1.cpp(69,22): error C2678:  binary '!=': no operator found which takes a left-hand operand of type 'std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<char>>>' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xtree(233,21): message :  could be 'bool std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<char>>>::operator !=(const std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<char>>> &) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\exception(293,24): message :  or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\exception(297,24): message :  or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\exception(301,24): message :  or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept' [found using argument-dependent lookup]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(237,24): message :  or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(242,24): message :  or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(247,24): message :  or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(252,24): message :  or       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+F:\Personal Files\Personal Projects\CtCI\CH1\CH1\1_1.cpp(69,22): message :  while trying to match the argument list '(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<char>>>, std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>)'
+F:\Personal Files\Personal Projects\CtCI\CH1\CH1\1_1.cpp(69,22): message :         with
+F:\Personal Files\Personal Projects\CtCI\CH1\CH1\1_1.cpp(69,22): message :         [
+F:\Personal Files\Personal Projects\CtCI\CH1\CH1\1_1.cpp(69,22): message :             _Elem=char
+F:\Personal Files\Personal Projects\CtCI\CH1\CH1\1_1.cpp(69,22): message :         ]
