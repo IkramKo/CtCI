@@ -1,6 +1,16 @@
 #include <iostream>
 #include <string.h>
 
+void reverseString(char* sentence) {
+    char* endPtr = sentence;
+    //pointer arithmetic?
+
+    // Find null char
+    while (*endPtr != '\0') {
+        endPtr++;
+    }
+}
+
 int main() {
     std::string name = "Kaeya\0";
     int n = name.length();
